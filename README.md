@@ -1,3 +1,3 @@
 # PHP-Object-Oriented-Programming
 
-Lynda.com cursus
+Lynda.com cursus - Kevin Skoglund
