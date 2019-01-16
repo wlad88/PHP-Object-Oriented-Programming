@@ -6,6 +6,6 @@
     <title>HTML Template</title>
   </head>
   <body>
-
+    <?php echo 'Testing php.....'>; ?>
   </body>
 </html>
