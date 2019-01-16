@@ -5,6 +5,6 @@ class Student {
 }
 
 $classes = get_declared_classes();
-echo "Classes: " . implode(, ,$classes) . "<br>";
+echo "Classes: " . implode(', ', $classes) . "<br />";
 
 ?>
