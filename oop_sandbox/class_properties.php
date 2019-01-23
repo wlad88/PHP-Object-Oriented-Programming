@@ -16,5 +16,6 @@ $student2->last_name = "Vermeulen";
 
 echo $student1->first_name . $student1->last_name . "<br />";
 echo $student2->first_name . $student2->last_name;
+echo "test";
 
 ?>
