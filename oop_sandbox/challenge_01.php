@@ -30,6 +30,7 @@ $cd->model = 'Synapse';
 $cd->year = '2016';
 $cd->weight_kg = '8.0';
 
+echo "test";
 echo $trek->name() . "<br />";
 echo $cd->name() . "<br />";
 
