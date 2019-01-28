@@ -1,7 +1,5 @@
 <?php
 
-echo "test0";
-
 class Bicycle {
 
   var $brand;
