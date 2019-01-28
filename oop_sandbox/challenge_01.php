@@ -1,7 +1,7 @@
 <?php
 
 echo "test0";
-/*
+
 class Bicycle {
 
   var $brand;
@@ -19,7 +19,7 @@ class Bicycle {
   }
 
 }
-
+/*
 $trek = new Bicycle;
 $trek->brand = 'Trek';
 $trek->model = 'Emonda';
