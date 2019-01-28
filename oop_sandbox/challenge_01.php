@@ -14,12 +14,12 @@ class Bicycle {
     return $this->brand . " " . $this->model . " (" . $this->year . ")";
   }
 
-  function weight_lbs {
+  function weight_lbs() {
     return floatval($this->weight_kg) * 2.2046226218;
   }
 
 }
-/*
+
 $trek = new Bicycle;
 $trek->brand = 'Trek';
 $trek->model = 'Emonda';
@@ -37,5 +37,5 @@ echo $cd->name() . "<br />";
 
 echo $trek->weight_kg . "<br />";
 echo $trek->weight_lbs() . "<br />";
-*/
+
 ?>
