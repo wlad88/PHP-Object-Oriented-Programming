@@ -1,7 +1,7 @@
 <?php
 
 echo "test0";
-
+/*
 class Bicycle {
 
   var $brand;
@@ -37,5 +37,5 @@ echo $cd->name() . "<br />";
 
 echo $trek->weight_kg . "<br />";
 echo $trek->weight_lbs() . "<br />";
-
+*/
 ?>
