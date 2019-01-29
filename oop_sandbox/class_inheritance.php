@@ -2,6 +2,7 @@
 
   class User {
 
+    var $is_admin = false;
     var $first_name;
     var $last_name;
     var $username;
@@ -23,6 +24,15 @@
 
   }
 
+  class AdminUser extends User {
+
+    var $is_admin = true;
+
+    function full_Name() {
+      return $this->first_name . " " . $this->last_name . " (Admin)";
+
+  }
+
   $u = new User;
   $u->first_name = 'Jerry';
   $u->last_name = 'Seinfeld';
@@ -36,8 +46,14 @@
   $c->state = 'New York';
   $c->country = 'United States';
 
+  $a = new AdminUser;
+  $a->first_name = 'John';
+  $a->last_name = 'Doe';
+  $a->username = 'jdoe';
+
   echo $u->full_Name() . "<br />";
   echo $c->full_Name() . "<br />";
+  echo $a->full_Name() . "<br />";
 
   echo $c->location() . "<br />";
 
