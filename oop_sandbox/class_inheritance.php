@@ -53,7 +53,7 @@
 
   echo $u->full_Name() . "<br />";
   echo $c->full_Name() . "<br />";
-  echo $a->full_Name() . "<br />";
+  //echo $a->full_Name() . "<br />";
 
   echo $c->location() . "<br />";
 
