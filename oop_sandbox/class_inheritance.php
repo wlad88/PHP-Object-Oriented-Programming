@@ -7,7 +7,7 @@
     var $last_name;
     var $username;
 
-    function full_Name() {
+    function full_name() {
       return $this->first_name . " " . $this->last_name;
     }
   }
@@ -28,8 +28,8 @@
 
     var $is_admin = true;
 
-    function full_Name() {
-      return $this->first_name . " " . $this->last_name;
+    function full_name() {
+      return $this->first_name . " " . $this->last_name . " (Admin)";
     }
 
   }
@@ -52,9 +52,9 @@
   $a->last_name = 'Doe';
   $a->username = 'jdoe';
 
-  echo $u->full_Name() . "<br />";
-  echo $c->full_Name() . "<br />";
-  echo $a->full_Name() . "<br />";
+  echo $u->full_name() . "<br />";
+  echo $c->full_name() . "<br />";
+  echo $a->full_name() . "<br />";
 
   echo $c->location() . "<br />";
 
