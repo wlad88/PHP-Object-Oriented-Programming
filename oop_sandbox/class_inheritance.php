@@ -2,12 +2,12 @@
 
   class User {
 
-    var first_name;
-    var last_name;
-    var username;
+    var $first_name;
+    var $last_name;
+    var $username;
 
     function full_Name() {
-      return $this->first_name . "" . $this->last_name;
+      return $this->first_name . " " . $this->last_name;
     }
 
     class Customer extends User {
