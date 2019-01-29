@@ -36,6 +36,6 @@
   }
 
   $parents = class_parents($c);
-  echo $parents . "<br />";
-  
+  echo implode(', ', $parents) . "<br />";
+
 ?>
