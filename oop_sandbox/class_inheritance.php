@@ -29,9 +29,9 @@
     var $is_admin = true;
 
     function full_Name() {
-      return $this->first_name . " " . $this->last_name . " (Admin)";
+      return $this->first_name . " " . $this->last_name;
     }
-    
+
   }
 
   $u = new User;
