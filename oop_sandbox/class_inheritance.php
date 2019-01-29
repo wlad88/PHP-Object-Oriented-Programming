@@ -6,7 +6,7 @@
     var last_name;
     var username;
 
-    funtion full_Name() {
+    function full_Name() {
       return $this->first_name . "" . $this->last_name;
     }
 
@@ -35,7 +35,7 @@
     }
 
     $parents = class_parents($c);
-    //echo $parents . "<br />";
+    echo $parents . "<br />";
 
   }
 
