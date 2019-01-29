@@ -30,7 +30,8 @@
 
     function full_Name() {
       return $this->first_name . " " . $this->last_name . " (Admin)";
-
+    }
+    
   }
 
   $u = new User;
@@ -53,7 +54,7 @@
 
   echo $u->full_Name() . "<br />";
   echo $c->full_Name() . "<br />";
-  //echo $a->full_Name() . "<br />";
+  echo $a->full_Name() . "<br />";
 
   echo $c->location() . "<br />";
 
