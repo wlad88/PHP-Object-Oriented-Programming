@@ -16,6 +16,10 @@ class Bicycle {
     return floatval($this->weight_kg) * 2.2046226218;
   }
 
+  function set_weight_lbs($value) {
+    $this->weight_kg = floatval($value) / 2.2046226218;
+  }
+
 }
 
 $trek = new Bicycle;
@@ -36,4 +40,7 @@ echo $cd->name() . "<br />";
 echo $trek->weight_kg . "<br />";
 echo $trek->weight_lbs() . "<br />";
 
+$trek->set_weight_lbs(2);
+echo $trek->weight_kg . "<br />";
+echo $trek->weight_lbs() . "<br />";
 ?>
