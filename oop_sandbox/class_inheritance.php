@@ -35,7 +35,7 @@
     }
 
     $parents = class_parents($c);
-    echo $parents . "<br />";
+    //echo $parents . "<br />";
 
   }
 
