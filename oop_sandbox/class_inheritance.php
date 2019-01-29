@@ -13,6 +13,14 @@
 
   class Customer extends User {
 
+    var $city;
+    var $state;
+    var $country;
+
+    function location() {
+      return $this->city . ", " . $this->state . ", " . $this->country;
+    }
+
   }
 
   $u = new User;
@@ -24,9 +32,14 @@
   $c->first_name = 'George';
   $c->last_name = 'Constanza';
   $c->username = 'gconstanza';
+  $c->city = 'New York';
+  $c->state = 'New York';
+  $c->country = 'United States';
 
   echo $u->full_Name() . "<br />";
   echo $c->full_Name() . "<br />";
+
+  echo $c->location() . "<br />";
 
   echo get_parent_class($u) . "<br />";
   echo get_parent_class($c) . "<br />";
